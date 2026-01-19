@@ -1,6 +1,10 @@
-# EduPlatform - Learning Management System Frontend
+# Education Learning Platform - LMS
 
 A modern, production-ready Learning Management System (LMS) frontend built with React, Tailwind CSS, and modern web technologies. This is the client-side application for the Online Learning Management System project.
+
+## 🚀 Live Demo
+
+**Live Website:** [https://kundan0008000.github.io/-EDUCATION-LEARNING-PLATFORM](https://kundan0008000.github.io/-EDUCATION-LEARNING-PLATFORM)
 
 ## 🎯 Overview
 
