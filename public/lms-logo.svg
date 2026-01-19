@@ -1,0 +1,41 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#e8e8e8"/>
+  
+  <!-- Graduation Cap -->
+  <g id="cap">
+    <!-- Cap top -->
+    <polygon points="200,280 400,160 600,280 500,320 400,250 300,320" fill="#00264d" stroke="none"/>
+    <!-- Cap band -->
+    <rect x="200" y="280" width="400" height="40" fill="#00264d"/>
+    <!-- Tassel -->
+    <line x1="400" y1="320" x2="400" y2="380" stroke="#00264d" stroke-width="8"/>
+    <circle cx="400" cy="390" r="12" fill="#00264d"/>
+  </g>
+  
+  <!-- Open Book -->
+  <g id="book">
+    <!-- Left page -->
+    <path d="M 150 380 Q 150 360 170 360 L 350 360 L 350 560 Q 350 580 330 580 L 150 580 Z" fill="none" stroke="#00264d" stroke-width="16" stroke-linejoin="round"/>
+    <!-- Right page -->
+    <path d="M 450 360 L 630 360 Q 650 360 650 380 L 650 580 Q 650 580 630 580 L 450 560 Z" fill="none" stroke="#00264d" stroke-width="16" stroke-linejoin="round"/>
+    <!-- Book spine (center line) -->
+    <line x1="400" y1="360" x2="400" y2="580" stroke="#00264d" stroke-width="12"/>
+    
+    <!-- Decorative lines on left page -->
+    <line x1="180" y1="420" x2="330" y2="420" stroke="#00264d" stroke-width="8" opacity="0.6"/>
+    <line x1="180" y1="470" x2="330" y2="470" stroke="#00264d" stroke-width="8" opacity="0.6"/>
+    <line x1="180" y1="520" x2="280" y2="520" stroke="#00264d" stroke-width="8" opacity="0.6"/>
+    
+    <!-- Decorative lines on right page -->
+    <line x1="470" y1="420" x2="620" y2="420" stroke="#00264d" stroke-width="8" opacity="0.6"/>
+    <line x1="470" y1="470" x2="620" y2="470" stroke="#00264d" stroke-width="8" opacity="0.6"/>
+    <line x1="470" y1="520" x2="570" y2="520" stroke="#00264d" stroke-width="8" opacity="0.6"/>
+  </g>
+  
+  <!-- Text -->
+  <g id="text">
+    <text x="400" y="680" font-size="64" font-weight="bold" text-anchor="middle" fill="#00264d">LMS</text>
+    <text x="400" y="760" font-size="48" text-anchor="middle" fill="#333333">Learning Management System</text>
+  </g>
+</svg>

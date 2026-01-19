@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#f8f9fa"/>
+  
+  <!-- Shield Background -->
+  <path d="M100 20 L160 50 L160 110 Q160 150 100 180 Q40 150 40 110 L40 50 Z" fill="#1e40af" stroke="#1e3a8a" stroke-width="3"/>
+  <path d="M100 25 L155 52 L155 110 Q155 145 100 172 Q45 145 45 110 L45 52 Z" fill="#2563eb"/>
+  <path d="M100 30 L150 54 L150 110 Q150 142 100 168 Q50 142 50 110 L50 54 Z" fill="#3b82f6"/>
+  
+  <!-- Open Book -->
+  <g transform="translate(100, 95)">
+    <!-- Left Page -->
+    <path d="M-35,-15 Q-35,-20 -30,-22 L-5,-22 L-5,20 L-30,18 Q-35,17 -35,12 Z" fill="white" stroke="#f97316" stroke-width="2"/>
+    <!-- Right Page -->
+    <path d="M5,-22 L30,-22 Q35,-20 35,-15 L35,12 Q35,17 30,18 L5,20 Z" fill="white" stroke="#f97316" stroke-width="2"/>
+    <!-- Book Lines (Left) -->
+    <line x1="-30" y1="-15" x2="-10" y2="-15" stroke="#f97316" stroke-width="1.5"/>
+    <line x1="-30" y1="-8" x2="-10" y2="-8" stroke="#f97316" stroke-width="1.5"/>
+    <line x1="-30" y1="-1" x2="-10" y2="-1" stroke="#f97316" stroke-width="1.5"/>
+    <line x1="-30" y1="6" x2="-10" y2="6" stroke="#f97316" stroke-width="1.5"/>
+    <!-- Book Lines (Right) -->
+    <line x1="10" y1="-15" x2="30" y2="-15" stroke="#f97316" stroke-width="1.5"/>
+    <line x1="10" y1="-8" x2="30" y2="-8" stroke="#f97316" stroke-width="1.5"/>
+    <line x1="10" y1="-1" x2="30" y2="-1" stroke="#f97316" stroke-width="1.5"/>
+    <line x1="10" y1="6" x2="30" y2="6" stroke="#f97316" stroke-width="1.5"/>
+    <!-- Center Binding -->
+    <rect x="-2" y="-22" width="4" height="42" fill="#f97316"/>
+  </g>
+  
+  <!-- Graduation Cap -->
+  <g transform="translate(100, 65)">
+    <!-- Cap Top -->
+    <path d="M-40,-8 L0,-18 L40,-8 L40,-5 L0,-15 L-40,-5 Z" fill="#1e3a8a"/>
+    <path d="M-40,-8 L0,-18 L40,-8 L38,-6 L0,-16 L-38,-6 Z" fill="#1e40af"/>
+    <!-- Cap Board -->
+    <ellipse cx="0" cy="-8" rx="40" ry="8" fill="#f97316"/>
+    <ellipse cx="0" cy="-8" rx="38" ry="7" fill="#fb923c"/>
+    <!-- Tassel -->
+    <line x1="35" y1="-8" x2="42" y2="-2" stroke="#f97316" stroke-width="2"/>
+    <circle cx="42" cy="0" r="3" fill="#f97316"/>
+  </g>
+  
+  <!-- Laurel Wreath (Left) -->
+  <g transform="translate(30, 100)">
+    <path d="M0,0 Q-5,-8 -3,-15 Q0,-10 3,-8 Q5,-3 5,0" fill="#65a30d"/>
+    <path d="M3,-8 Q0,-18 2,-25 Q5,-18 8,-15 Q10,-10 10,-5" fill="#65a30d"/>
+    <path d="M8,-15 Q5,-28 8,-35 Q12,-28 15,-22 Q17,-18 17,-12" fill="#65a30d"/>
+    <path d="M0,0 Q-5,8 -3,15 Q0,10 3,8 Q5,3 5,0" fill="#84cc16"/>
+    <path d="M3,8 Q0,18 2,25 Q5,18 8,15 Q10,10 10,5" fill="#84cc16"/>
+    <path d="M8,15 Q5,28 8,35 Q12,28 15,22 Q17,18 17,12" fill="#84cc16"/>
+  </g>
+  
+  <!-- Laurel Wreath (Right) -->
+  <g transform="translate(170, 100) scale(-1, 1)">
+    <path d="M0,0 Q-5,-8 -3,-15 Q0,-10 3,-8 Q5,-3 5,0" fill="#65a30d"/>
+    <path d="M3,-8 Q0,-18 2,-25 Q5,-18 8,-15 Q10,-10 10,-5" fill="#65a30d"/>
+    <path d="M8,-15 Q5,-28 8,-35 Q12,-28 15,-22 Q17,-18 17,-12" fill="#65a30d"/>
+    <path d="M0,0 Q-5,8 -3,15 Q0,10 3,8 Q5,3 5,0" fill="#84cc16"/>
+    <path d="M3,8 Q0,18 2,25 Q5,18 8,15 Q10,10 10,5" fill="#84cc16"/>
+    <path d="M8,15 Q5,28 8,35 Q12,28 15,22 Q17,18 17,12" fill="#84cc16"/>
+  </g>
+  
+  <!-- Stars -->
+  <g fill="#f97316">
+    <!-- Top Center Star (Large) -->
+    <path transform="translate(100, 15)" d="M0,-8 L2,-2 L8,-2 L3,2 L5,8 L0,4 L-5,8 L-3,2 L-8,-2 L-2,-2 Z"/>
+    <!-- Top Left Star -->
+    <path transform="translate(75, 25) scale(0.5)" d="M0,-8 L2,-2 L8,-2 L3,2 L5,8 L0,4 L-5,8 L-3,2 L-8,-2 L-2,-2 Z"/>
+    <!-- Top Right Star -->
+    <path transform="translate(125, 25) scale(0.5)" d="M0,-8 L2,-2 L8,-2 L3,2 L5,8 L0,4 L-5,8 L-3,2 L-8,-2 L-2,-2 Z"/>
+    <!-- Left Star -->
+    <path transform="translate(60, 40) scale(0.4)" d="M0,-8 L2,-2 L8,-2 L3,2 L5,8 L0,4 L-5,8 L-3,2 L-8,-2 L-2,-2 Z"/>
+    <!-- Right Star -->
+    <path transform="translate(140, 40) scale(0.4)" d="M0,-8 L2,-2 L8,-2 L3,2 L5,8 L0,4 L-5,8 L-3,2 L-8,-2 L-2,-2 Z"/>
+  </g>
+  
+  <!-- Bottom Orange Wave -->
+  <path d="M40 160 Q70 155 100 160 Q130 165 160 160 L160 180 Q130 175 100 180 Q70 175 40 180 Z" fill="#f97316"/>
+  
+  <!-- Outer Border -->
+  <circle cx="100" cy="100" r="97" fill="none" stroke="#1e3a8a" stroke-width="2"/>
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#2563eb" stroke-width="1"/>
+</svg>
