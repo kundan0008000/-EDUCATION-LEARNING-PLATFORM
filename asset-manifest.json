@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/-EDUCATION-LEARNING-PLATFORM/static/css/main.896cfcb5.css",
+    "main.js": "/-EDUCATION-LEARNING-PLATFORM/static/js/main.a08e90dc.js",
+    "index.html": "/-EDUCATION-LEARNING-PLATFORM/index.html",
+    "main.896cfcb5.css.map": "/-EDUCATION-LEARNING-PLATFORM/static/css/main.896cfcb5.css.map",
+    "main.a08e90dc.js.map": "/-EDUCATION-LEARNING-PLATFORM/static/js/main.a08e90dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.896cfcb5.css",
+    "static/js/main.a08e90dc.js"
+  ]
+}
